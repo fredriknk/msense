@@ -1,0 +1,166 @@
+(footprint "TGS8410"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "S**"
+		(at 3 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7c4b1036-322e-4c77-895a-982c9d34086c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TGS8410"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4fcaaaa-bda1-4a25-bcdc-626e739bb1a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab8422dc-5f89-4c2e-bd13-38a05c9eb536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "265a0b4e-5085-4dac-9f30-eb962c391a22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1843afe-c296-4e88-ac00-1607ef877af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.5 -5)
+		(end 0.5 -5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89e0e7f9-9452-4245-b526-d4007dc7c68d")
+	)
+	(fp_line
+		(start -0.5 -4.6)
+		(end -0.5 -5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "54a04b3d-b433-4404-9514-8a7be757ad71")
+	)
+	(fp_line
+		(start 0.5 -4.6)
+		(end 0.5 -5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "017a1459-573c-4cc6-ae74-08319d649982")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.6 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b304fe9d-8689-427e-82e8-26a9a19a2b82")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f130b87-7f23-4d44-b1c3-c7002434b64b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.8 -1.8)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "577ac668-6707-4120-9d81-563dbfc74ab7")
+	)
+	(pad "2" thru_hole circle
+		(at -1.8 1.8)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "294d44c5-fd95-422a-9d26-4037e43d8466")
+	)
+	(pad "3" thru_hole circle
+		(at 1.8 1.8)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c5799dc-cf00-4c0a-b827-370aa4630010")
+	)
+	(pad "4" thru_hole circle
+		(at 1.8 -1.8)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1dc37d8-8dc4-44a5-9b2b-846b584eba3b")
+	)
+	(model "${KIPRJMOD}/packages3D/TGS8410 v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

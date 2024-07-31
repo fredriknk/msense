@@ -4,4 +4,6 @@
   (lib (name "esprelay")(type "KiCad")(uri "${KIPRJMOD}/lib/Methanesense.pretty")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/lib/Methanesense.pretty/Library.pretty")(options "")(descr ""))
   (lib (name "uplc")(type "KiCad")(uri "${KIPRJMOD}/lib/Methanesense.pretty")(options "")(descr ""))
+  (lib (name "Methanesense")(type "KiCad")(uri "${KIPRJMOD}/lib/Methanesense.pretty")(options "")(descr ""))
+  (lib (name "693043020611")(type "KiCad")(uri "${KIPRJMOD}/lib/693043020611.pretty")(options "")(descr ""))
 )
