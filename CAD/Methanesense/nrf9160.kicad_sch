@@ -22,12 +22,13 @@
 				)
 			)
 			(property "Value" "693043020611"
-				(at -6.35 -13.97 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "693043020611:693043020611"
@@ -109,16 +110,6 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/693043020611/Wurth+Electronics/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "693043020611"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9119,7 +9110,7 @@
 			(uuid "d8803d39-a499-4af6-a690-543c4cbd85b9")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "Q2")
 					(unit 2)
@@ -9352,7 +9343,7 @@
 			(uuid "f188b023-6608-47aa-90cd-2ffa82f155ee")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "U9")
 					(unit 1)
@@ -9426,7 +9417,7 @@
 			(uuid "74d3d536-0ede-4d88-97fe-74ea45cb7cbd")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "#PWR054")
 					(unit 1)
@@ -10668,7 +10659,7 @@
 			(uuid "5fccb602-3472-4877-8fa9-fa3d1abd795c")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "U5")
 					(unit 1)
@@ -10768,7 +10759,7 @@
 			(uuid "ff75bfaa-c430-4bcf-a366-d61cbf1c9d93")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "J6")
 					(unit 1)
@@ -11048,7 +11039,7 @@
 			(uuid "f4fd155f-09c7-4b71-ba98-b016cb47e60c")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "D5")
 					(unit 1)
@@ -11200,7 +11191,7 @@
 			(uuid "1ce7c0ca-4aef-49ae-abff-29bcb6c9f314")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "U8")
 					(unit 1)
@@ -11298,7 +11289,7 @@
 			(uuid "d8803d39-a499-4af6-a690-543c4cbd85ba")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "Q2")
 					(unit 1)
@@ -11364,7 +11355,7 @@
 			(uuid "87c2f3cc-350c-4d7f-8998-08e26fc53ea0")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "#PWR058")
 					(unit 1)
@@ -13244,7 +13235,7 @@
 			(uuid "869b79f2-4ff8-4077-96ac-650e0b136adc")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "J7")
 					(unit 1)
@@ -13922,7 +13913,7 @@
 			(uuid "a4c13bb9-48a1-4717-af7e-be4bcc9b6749")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "#PWR056")
 					(unit 1)
@@ -13989,7 +13980,7 @@
 			(uuid "6cfc5fe2-33d5-4a68-9feb-9978839407f1")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "#PWR092")
 					(unit 1)
@@ -14416,7 +14407,7 @@
 			(uuid "3f6e91dc-9a0b-46c3-8d1f-226190b0e9fd")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "SW1")
 					(unit 1)
@@ -14837,7 +14828,7 @@
 			(uuid "74ea7f2b-3c01-4044-9d23-f862eed0417a")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "J3")
 					(unit 1)
@@ -15842,7 +15833,7 @@
 			(uuid "c5ac868e-ec80-4ef0-8c78-97d609368433")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "#PWR055")
 					(unit 1)
@@ -16772,7 +16763,7 @@
 			(uuid "c5424a99-f970-404f-9815-e1f0fb7f3630")
 		)
 		(instances
-			(project ""
+			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "L2")
 					(unit 1)
