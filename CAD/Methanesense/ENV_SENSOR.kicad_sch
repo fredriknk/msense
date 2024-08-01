@@ -583,6 +583,12 @@
 			)
 		)
 	)
+	(junction
+		(at 147.32 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ac2a69d-7022-43ec-a33e-e065da6e2849")
+	)
 	(polyline
 		(pts
 			(xy 181.61 123.19) (xy 102.87 123.19)
@@ -633,6 +639,16 @@
 		)
 		(uuid "978f09e8-873c-4356-bed0-e3489b20f024")
 	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a53fc5-5b45-4a34-9b45-ff3c6a61ad98")
+	)
 	(polyline
 		(pts
 			(xy 181.61 71.12) (xy 102.87 71.12)
@@ -643,7 +659,7 @@
 		)
 		(uuid "e08d4da8-b811-4b8f-ade4-ea08ecd08970")
 	)
-	(text "i2c address: 1110110 (0x76)"
+	(text "i2c address: 111 0110 (0x76)"
 		(exclude_from_sim no)
 		(at 118.618 74.93 0)
 		(effects
@@ -835,81 +851,6 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 165.1 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ae8926e-f2b3-41a5-8fbb-d8994c31b15f")
-		(property "Reference" "#PWR0110"
-			(at 161.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V0"
-			(at 168.91 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6dea6cae-3fe7-430c-85e5-b224c8aeace3")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -1113,6 +1054,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 119.38 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae4564b-4ba5-4de9-b5c3-0182478a208e")
+		(property "Reference" "#PWR067"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V0SW"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "554dda66-e0b5-4eff-b08c-1f23806fc6c0")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:C")
 		(at 109.22 96.52 0)
 		(unit 1)
@@ -1185,80 +1200,6 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 152.4 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae186799-9940-4170-8c70-b34f0351422f")
-		(property "Reference" "#PWR0107"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V0"
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4681fa4e-ea1b-4ffb-9eb8-0a2c42e32972")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -1354,16 +1295,16 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 109.22 92.71 0)
+		(at 165.1 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5c70af0-9a9f-4638-9e13-7a7ac88c5759")
-		(property "Reference" "#PWR0112"
-			(at 109.22 96.52 0)
+		(uuid "be98bfaa-9366-4d7f-aafc-b1efa0db0772")
+		(property "Reference" "#PWR098"
+			(at 161.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,16 +1312,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V0"
-			(at 109.22 87.63 0)
+		(property "Value" "+2V0SW"
+			(at 168.91 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 92.71 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 92.71 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 109.22 92.71 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1349,7 @@
 			)
 		)
 		(property "TEST" ""
-			(at 109.22 92.71 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,86 +1357,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "24770fbd-0077-4d9a-becb-1d08d835110d")
+			(uuid "465c8248-6e9a-4182-84d2-8d89b42fb483")
 		)
 		(instances
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 119.38 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be6fd338-c481-49d2-9a82-3d3b7aba623a")
-		(property "Reference" "#PWR0114"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V0"
-			(at 119.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0e2b632-7fe1-42c6-bcc1-9d75240d4056")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
-					(reference "#PWR0114")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1509,8 +1377,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c02a7ec9-2065-4183-8d81-b475274211bd")
-		(property "Reference" "#PWR0106"
+		(uuid "d8ab3e08-04ee-4997-96dc-5c4629154c92")
+		(property "Reference" "#PWR041"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -1519,7 +1387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V0"
+		(property "Value" "+2V0SW"
 			(at 147.32 77.47 0)
 			(effects
 				(font
@@ -1563,12 +1431,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "4eda1903-290a-4389-9d62-8ca2985ce24b")
+			(uuid "54cb97e9-0554-4fa9-ab6c-af6349695e7f")
 		)
 		(instances
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
-					(reference "#PWR0106")
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 109.22 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2ca65d4-88b3-43a8-a8d3-332d447097a5")
+		(property "Reference" "#PWR062"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V0SW"
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c67fa524-0384-4a4b-aba4-50839ff92a84")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/4ac17f2e-cec2-4fa1-9d0b-aeb6840bb4ac"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

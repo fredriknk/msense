@@ -3998,6 +3998,12 @@
 		(uuid "ce80efca-bdce-4792-85da-acb7ad25edf5")
 	)
 	(junction
+		(at 113.03 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d85ba7df-5e45-419c-a566-7feb2b8dcf3a")
+	)
+	(junction
 		(at 256.54 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4054,6 +4060,10 @@
 	(no_connect
 		(at 171.45 104.14)
 		(uuid "c09dbec3-f919-4c67-a3b9-d63af157c798")
+	)
+	(no_connect
+		(at 237.49 106.68)
+		(uuid "d71638d8-0b85-46ee-8d5a-9c678f66d46c")
 	)
 	(wire
 		(pts
@@ -4707,7 +4717,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 176.53) (xy 64.77 176.53)
+			(xy 49.53 176.53) (xy 71.12 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4827,7 +4837,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 184.15) (xy 64.77 184.15)
+			(xy 49.53 184.15) (xy 71.12 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4936,6 +4946,17 @@
 		)
 		(uuid "6cda7d15-4314-4d5f-a2ce-c932273f5a82")
 	)
+	(text "Addr: 110 1011\n"
+		(exclude_from_sim no)
+		(at 138.684 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74634ce3-7996-4606-88f7-4d6cd189d0c2")
+	)
 	(text "PMIC\n"
 		(exclude_from_sim no)
 		(at 138.43 33.02 0)
@@ -4991,6 +5012,17 @@
 		)
 		(uuid "4c565357-a854-4b3e-9c42-863892743738")
 	)
+	(label "VCCIOUSB"
+		(at 101.6 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84e439e1-5284-47a8-8142-a430c4a40b6d")
+	)
 	(label "SW1"
 		(at 238.76 86.36 0)
 		(fields_autoplaced yes)
@@ -5012,6 +5044,28 @@
 			(justify left bottom)
 		)
 		(uuid "8e624500-3447-4265-a049-cfe8f4a79083")
+	)
+	(label "USBDP"
+		(at 74.93 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb9dc0f6-e59f-48ce-9fad-7ce3459066e6")
+	)
+	(label "USBDN"
+		(at 74.93 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbe5e640-0fbe-4b5b-b0ba-6ff83dadf181")
 	)
 	(hierarchical_label "RXD"
 		(shape input)
@@ -5060,6 +5114,18 @@
 			(justify right)
 		)
 		(uuid "a0087be5-db56-43d4-93bc-67d66eb19475")
+	)
+	(hierarchical_label "USB_DET"
+		(shape input)
+		(at 120.65 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d49ca608-88a0-4fd3-945e-0295d506ceca")
 	)
 	(hierarchical_label "~{CTS}"
 		(shape input)
@@ -5146,6 +5212,71 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1abb5c89-92d4-4290-bbb8-78026714c4f6")
+		(property "Reference" "#PWR048"
+			(at 243.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.824 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "814acb8c-f7e3-41d4-9b8d-e3cb87d6ac4a")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5422,71 +5553,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c0fe1ec-94c2-4f67-b326-4a1f43b97b6d")
-		(property "Reference" "#PWR0100"
-			(at 243.84 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.824 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3b9503e-412c-4f91-aaee-a7cca12682f5")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 107.95 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5546,6 +5612,81 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 237.49 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ebbc7ed-24cf-4690-b04f-eb3b71691143")
+		(property "Reference" "#PWR013"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V0SW"
+			(at 241.3 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa2076e8-44af-4799-9043-48cf9239d485")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5622,6 +5763,80 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 266.7 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c00283-0ee5-499d-a041-ce1758589746")
+		(property "Reference" "#PWR047"
+			(at 266.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V0SW"
+			(at 266.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08656ea3-188f-48c6-8ea7-0ed2de52e0af")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6139,6 +6354,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 259.08 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1e3eed-f04e-428a-a2de-1d8dffe5a828")
+		(property "Reference" "#PWR031"
+			(at 259.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V0"
+			(at 259.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11ec8031-93e8-438f-8589-12df030ec603")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 246.38 82.55 0)
 		(unit 1)
@@ -6303,7 +6592,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 64.77 181.61 0)
+		(at 71.12 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6311,8 +6600,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557530c3-5cf5-4f9c-8c42-80a1ef49c81e")
-		(property "Reference" "BT2"
-			(at 68.58 178.4984 0)
+		(property "Reference" "BAT1"
+			(at 74.93 178.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6610,7 @@
 			)
 		)
 		(property "Value" "18650-3500mAH"
-			(at 68.58 181.0384 0)
+			(at 74.93 181.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 180.086 90)
+			(at 71.12 180.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 180.086 90)
+			(at 71.12 180.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6637,7 @@
 			)
 		)
 		(property "Description" "18650 battery"
-			(at 64.77 181.61 0)
+			(at 71.12 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6646,7 @@
 			)
 		)
 		(property "TEST" ""
-			(at 64.77 181.61 0)
+			(at 71.12 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6662,7 @@
 		(instances
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
-					(reference "BT2")
+					(reference "BAT1")
 					(unit 1)
 				)
 			)
@@ -6441,71 +6730,6 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a4a432c-b37b-43d7-8713-c619fc6f70e9")
-		(property "Reference" "#PWR098"
-			(at 243.84 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.824 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9a5e8d4-3006-44d4-80e9-8967bdd02812")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -7664,6 +7888,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:R")
+		(at 262.89 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8aca383b-f735-4b52-ac17-9b02ccc7b213")
+		(property "Reference" "R4"
+			(at 265.43 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 265.43 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 262.89 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae549b37-a33d-46fb-a9da-679c77e7b475")
+		)
+		(pin "2"
+			(uuid "cca782c1-25b1-491e-90dc-f9ecf9a632a0")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.18 148.59 0)
 		(unit 1)
@@ -7724,81 +8034,6 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 237.49 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f06c9e9-6bde-4c19-b8f2-79a896ba7085")
-		(property "Reference" "#PWR099"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V0"
-			(at 241.3 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66327c0a-c31c-46a1-b90e-031c2889c612")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
-					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -8210,6 +8445,92 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R")
+		(at 116.84 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf3f98f-a9a8-4b16-92e9-cf766633b850")
+		(property "Reference" "R5"
+			(at 114.3 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 114.3 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "085b1cf8-82a5-4468-a0f9-60247aca8658")
+		)
+		(pin "2"
+			(uuid "0f9d8c16-8ccd-4817-aebb-f832a68c7c40")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/29268011-ceb4-4614-83a3-b1b699d92774"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8663,7 +8984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1042P"
+		(property "Value" "BH-18650-PC2"
 			(at 53.34 181.0384 0)
 			(effects
 				(font
@@ -8672,7 +8993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC2"
+		(property "Footprint" "Methanesense:BatteryHolder_MPD_BH-18650-PC2"
 			(at 49.53 180.086 90)
 			(effects
 				(font
@@ -9151,7 +9472,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efa4cc7d-e75c-4c6a-9292-cd2418079333")
 		(property "Reference" "U3"
 			(at 204.47 99.06 0)

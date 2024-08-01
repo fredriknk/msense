@@ -6975,12 +6975,6 @@
 		(uuid "8ea91eb9-5582-4db1-bd44-7e19707afd6f")
 	)
 	(junction
-		(at 34.29 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5bfbe28-0bf5-482f-9ed5-e8cb0eb756d2")
-	)
-	(junction
 		(at 187.96 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7021,12 +7015,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3bd8438-e381-412f-9085-3aaef5a032f5")
-	)
-	(junction
-		(at 40.64 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec225f23-c439-42e6-bc07-196b6da12c34")
 	)
 	(junction
 		(at 148.59 181.61)
@@ -7132,7 +7120,7 @@
 		(uuid "032c2ca9-1731-4d96-988f-c87f66d8fc81")
 	)
 	(bus_entry
-		(at 16.51 57.15)
+		(at 16.51 62.23)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -7150,7 +7138,7 @@
 		(uuid "18dac0bc-641f-4fd4-b4c3-cfe34d948fcf")
 	)
 	(bus_entry
-		(at 16.51 54.61)
+		(at 16.51 59.69)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -7168,7 +7156,7 @@
 		(uuid "61c50548-4fc0-4ecf-9a84-97a65b94b790")
 	)
 	(bus_entry
-		(at 16.51 59.69)
+		(at 16.51 64.77)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -7186,6 +7174,15 @@
 		(uuid "73035a6a-49ca-4871-9f52-b6d6861ac7f6")
 	)
 	(bus_entry
+		(at 16.51 52.07)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928170f2-46ea-412f-8c5f-6d7464c83e23")
+	)
+	(bus_entry
 		(at 16.51 33.02)
 		(size 2.54 -2.54)
 		(stroke
@@ -7195,7 +7192,7 @@
 		(uuid "99b4a400-1e3f-4fc5-a3cc-075a34cdee77")
 	)
 	(bus_entry
-		(at 16.51 62.23)
+		(at 16.51 67.31)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -7243,7 +7240,7 @@
 	)
 	(bus
 		(pts
-			(xy 16.51 57.15) (xy 16.51 59.69)
+			(xy 16.51 62.23) (xy 16.51 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7263,7 +7260,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 30.48) (xy 46.99 30.48)
+			(xy 19.05 30.48) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7273,7 +7270,7 @@
 	)
 	(bus
 		(pts
-			(xy 16.51 54.61) (xy 16.51 57.15)
+			(xy 16.51 59.69) (xy 16.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7320,16 +7317,6 @@
 			(type default)
 		)
 		(uuid "13e78434-3ff9-4612-9fd7-3131ad02b463")
-	)
-	(wire
-		(pts
-			(xy 40.64 26.67) (xy 40.64 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143c676a-3f39-4c1d-85cc-b50748e0c3c8")
 	)
 	(wire
 		(pts
@@ -7383,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 52.07) (xy 30.48 52.07)
+			(xy 19.05 57.15) (xy 30.48 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7403,7 +7390,7 @@
 	)
 	(bus
 		(pts
-			(xy 16.51 49.53) (xy 16.51 54.61)
+			(xy 16.51 49.53) (xy 16.51 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7613,16 +7600,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 34.29 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7211bb96-14c7-4bb4-955d-1a54d792e0eb")
-	)
-	(wire
-		(pts
 			(xy 243.84 82.55) (xy 259.08 82.55)
 		)
 		(stroke
@@ -7650,6 +7627,16 @@
 			(type default)
 		)
 		(uuid "8062c32a-0c4e-4156-8325-a32fc7caf63b")
+	)
+	(bus
+		(pts
+			(xy 16.51 52.07) (xy 16.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d7d86b-0b27-4a13-a3c6-e695bd824ded")
 	)
 	(wire
 		(pts
@@ -7723,7 +7710,7 @@
 	)
 	(bus
 		(pts
-			(xy 16.51 59.69) (xy 16.51 62.23)
+			(xy 16.51 64.77) (xy 16.51 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7743,7 +7730,7 @@
 	)
 	(bus
 		(pts
-			(xy 16.51 62.23) (xy 16.51 81.28)
+			(xy 16.51 67.31) (xy 16.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7780,16 +7767,6 @@
 			(type default)
 		)
 		(uuid "9474bf9d-8705-406b-9614-7ff64be8952c")
-	)
-	(wire
-		(pts
-			(xy 19.05 30.48) (xy 40.64 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97adbdf5-34fa-4854-a20a-e271503fbb7c")
 	)
 	(wire
 		(pts
@@ -7943,7 +7920,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 54.61) (xy 30.48 54.61)
+			(xy 19.05 59.69) (xy 30.48 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7983,7 +7960,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 59.69) (xy 30.48 59.69)
+			(xy 19.05 64.77) (xy 30.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8063,7 +8040,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 57.15) (xy 30.48 57.15)
+			(xy 19.05 62.23) (xy 30.48 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8093,6 +8070,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 49.53) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd23ed4-d259-4847-bb1f-e141a0d7f84c")
+	)
+	(wire
+		(pts
 			(xy 63.5 149.86) (xy 59.69 149.86)
 		)
 		(stroke
@@ -8113,7 +8100,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 46.99 27.94)
+			(xy 19.05 27.94) (xy 46.99 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8130,16 +8117,6 @@
 			(type default)
 		)
 		(uuid "fb125299-7420-424a-ba43-1631b14e62fb")
-	)
-	(wire
-		(pts
-			(xy 19.05 27.94) (xy 34.29 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc268a73-4dc9-40ec-b18a-dbe1135d1afb")
 	)
 	(rectangle
 		(start 13.97 128.27)
@@ -8426,7 +8403,7 @@
 		(uuid "4fe0b715-021c-4ebd-9f0a-5829a709c4b8")
 	)
 	(label "AIN0"
-		(at 24.13 57.15 0)
+		(at 24.13 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8448,7 +8425,7 @@
 		(uuid "59f1a863-ef2a-438a-ac38-953b51fa9e45")
 	)
 	(label "AIN1"
-		(at 24.13 59.69 0)
+		(at 24.13 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8513,6 +8490,17 @@
 		)
 		(uuid "72b386e8-713a-4efc-aed4-12d50640a838")
 	)
+	(label "USB_DET"
+		(at 24.13 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "775e542f-7a30-48f5-b8f1-83a1d18b6d19")
+	)
 	(label "~{RESET}"
 		(at 208.28 142.24 0)
 		(fields_autoplaced yes)
@@ -8525,7 +8513,7 @@
 		(uuid "77fffeb4-18c2-49b9-af3d-8ce62efc9146")
 	)
 	(label "Sensor"
-		(at 24.13 52.07 0)
+		(at 24.13 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8558,7 +8546,7 @@
 		(uuid "86474842-3b03-41fa-9e88-20a47d75065e")
 	)
 	(label "Heater"
-		(at 24.13 54.61 0)
+		(at 24.13 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9567,81 +9555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
-		(at 40.64 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10843683-86d4-4684-abb4-f208564f18ba")
-		(property "Reference" "R13"
-			(at 38.608 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 40.64 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 42.418 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9af7fdfe-ace0-40ba-9042-42ce5015df1b")
-		)
-		(pin "2"
-			(uuid "c03ae26c-5da9-44c7-8db6-fdd34022c93d")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 189.23 0)
 		(unit 1)
@@ -10069,72 +9982,6 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 34.29 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21604f10-0103-437d-8d6e-3cfb829a64e5")
-		(property "Reference" "#PWR0104"
-			(at 34.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 34.29 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 34.29 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a84348b8-7bcd-4b30-87f4-6868ede21b79")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -10674,7 +10521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25c731ed-0b89-4ab4-a58f-ace8ef60e92c")
 		(property "Reference" "J6"
@@ -12228,7 +12075,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "55920dde-c2c6-4536-8099-beece7c8b482")
 		(property "Reference" "AE1"
@@ -12249,7 +12096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Methanesense:XCVR_NN02-220"
 			(at 265.43 54.61 0)
 			(effects
 				(font
@@ -12267,7 +12114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GPS-Antenna"
+		(property "Description" "LTE-M Antenna ignion NN02-220"
 			(at 265.43 54.61 0)
 			(effects
 				(font
@@ -15262,81 +15109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:R")
-		(at 34.29 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c90c7212-7b12-4f4b-9a8f-48f6d67bc004")
-		(property "Reference" "R12"
-			(at 32.258 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 34.29 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.068 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 34.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38db8534-d4dd-4fd9-a178-46121d864618")
-		)
-		(pin "2"
-			(uuid "e7cda8bb-b2af-4d62-84bb-0b37489c6119")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 123.19 181.61 0)
 		(unit 1)
@@ -16121,72 +15893,6 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 40.64 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e62519bb-009e-4db2-8f2c-e82c08e74718")
-		(property "Reference" "#PWR0105"
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 40.64 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "351fcee9-0b60-4466-b53a-a116804ead6b")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)

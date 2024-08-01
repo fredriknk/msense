@@ -66,6 +66,15 @@
 		(uuid "8bd98ded-b624-4a7d-963e-794d6181e2bd")
 	)
 	(bus_entry
+		(at 137.16 58.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f3b06a-9f17-4557-862a-b1c2eff6cfc6")
+	)
+	(bus_entry
 		(at 137.16 128.27)
 		(size 2.54 -2.54)
 		(stroke
@@ -165,6 +174,16 @@
 			(type default)
 		)
 		(uuid "059f87e6-bd18-4476-9f2f-a4ecc65d8bc3")
+	)
+	(bus
+		(pts
+			(xy 139.7 55.88) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a80fad8-4c5b-4f4e-bf5c-3859b2be584e")
 	)
 	(wire
 		(pts
@@ -378,7 +397,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 53.34) (xy 139.7 62.23)
+			(xy 139.7 53.34) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -435,6 +454,16 @@
 			(type default)
 		)
 		(uuid "eaed2acd-4661-43f7-80fe-26b3a64ab819")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe2493b-e6ad-4eef-8f8b-63ef925c5901")
 	)
 	(wire
 		(pts
@@ -710,6 +739,16 @@
 				(justify right)
 			)
 			(uuid "a09728e7-eb8a-4be8-8e8b-40f9cef0fbc2")
+		)
+		(pin "USB_DET" input
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a3d5075-a234-4c68-9ae2-cb47705042fe")
 		)
 		(instances
 			(project "Methanesense"
