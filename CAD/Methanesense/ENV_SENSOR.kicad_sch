@@ -841,6 +841,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf67d485-ed44-4162-8c47-63564d70b2d8")
 		)
@@ -1190,6 +1199,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "315207cf-0052-45ef-8a56-eb3a65565abf")
 		)
@@ -1252,6 +1270,15 @@
 			)
 		)
 		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BME680"
 			(at 149.86 97.79 0)
 			(effects
 				(font

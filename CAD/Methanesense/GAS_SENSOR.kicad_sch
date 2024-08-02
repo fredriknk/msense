@@ -2228,6 +2228,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "62b6194f-ced8-4ee2-a46e-186cc76fb8b7")
 		)
@@ -2382,6 +2391,15 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 176.53 85.09 0)
 			(effects
 				(font
@@ -2624,6 +2642,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56520860-fb04-4962-ac26-fa60fe364e15")
 		)
@@ -2702,6 +2729,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -2806,6 +2842,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2952,6 +2997,15 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 217.17 118.11 0)
 			(effects
 				(font
@@ -3174,6 +3228,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53f0842a-a36a-4732-8704-52161de88c9c")
 		)
@@ -3235,6 +3298,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS1115IDGS"
 			(at 217.17 88.9 0)
 			(effects
 				(font
@@ -3351,6 +3423,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3711,6 +3792,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f2d9cab-53de-43c8-a1b5-d6bfaa2d2254")
 		)
@@ -3863,6 +3953,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 227.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0851cf62-945d-4ddf-b0b6-85e504119b70")
 		)
@@ -4004,6 +4103,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52078990-e8bc-4a37-b7fa-c456670275ce")
 		)
@@ -4082,6 +4190,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 176.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32b1705d-55ad-4a38-9e4f-8d79f1e95584")
 		)
@@ -4144,6 +4261,15 @@
 			)
 		)
 		(property "Description" "MOX gas sensor"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TGS8410"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -4310,6 +4436,15 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52652542-8018-499c-8d8a-27ccc4bd1b9f")
 		)
@@ -4394,6 +4529,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
