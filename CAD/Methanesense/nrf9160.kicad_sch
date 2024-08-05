@@ -5980,6 +5980,246 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_DPDT_x2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -6109,139 +6349,6 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7796,7 +7903,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 21.59) (xy 265.43 21.59)
+			(xy 267.97 19.05) (xy 265.43 19.05)
 		)
 		(stroke
 			(width 0)
@@ -10120,15 +10227,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 99.06 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "30acc2d5-3de1-410b-a03c-ae7ba5ce8cf1")
 		)
@@ -10207,15 +10305,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 165.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8d3d706a-caea-4ffa-8330-3453888df902")
 		)
@@ -10249,7 +10338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDS6892A"
+		(property "Value" "FDS6898A"
 			(at 219.71 36.068 0)
 			(effects
 				(font
@@ -10279,7 +10368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.8A Id, 20V Vds, Dual N-Channel MOSFET , 37mOhm Ron, SO-8"
+		(property "Description" "9.4A Id, 20V Vds, Dual N-Channel MOSFET , 14mOhm Ron, SO-8"
 			(at 215.9 33.02 0)
 			(effects
 				(font
@@ -10296,7 +10385,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FDS6898A"
 			(at 215.9 33.02 0)
 			(effects
 				(font
@@ -10365,7 +10454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Methanesense:C_0402_1005Metric_Sqr"
 			(at 115.2652 189.23 0)
 			(effects
 				(font
@@ -10383,7 +10472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "RF"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -10400,7 +10489,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GJM0335C1E150GB01D"
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -10562,7 +10651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS22917DBV"
+		(property "MPN" "TPS22917DBVR"
 			(at 218.44 92.71 0)
 			(effects
 				(font
@@ -10763,7 +10852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 151.638 90)
 			(effects
 				(font
@@ -10796,15 +10885,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 67.31 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10948,15 +11028,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 187.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d7ba1e0c-8d0f-4c56-846f-74a1c25ce168")
 		)
@@ -11098,7 +11169,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CBR04C560F1GAC"
 			(at 222.25 82.55 0)
 			(effects
 				(font
@@ -11123,93 +11194,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 252.73 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "199c8a90-e703-47de-9217-a0580aa2b412")
-		(property "Reference" "SW2"
-			(at 252.73 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JS202011JCQN"
-			(at 252.73 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 252.73 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 252.73 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST" ""
-			(at 252.73 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "JS202011JCQN"
-			(at 252.73 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af612bf1-6a21-43d7-8740-181dda5033db")
-		)
-		(pin "1"
-			(uuid "19653a83-99dd-4dc1-9e6a-55f9b0b54b95")
-		)
-		(instances
-			(project "Methanesense"
-				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:R")
-		(at 261.62 21.59 270)
+		(at 261.62 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11217,7 +11203,7 @@
 		(dnp no)
 		(uuid "1deb31b0-dc9f-42a2-a404-04f7d2a96167")
 		(property "Reference" "R26"
-			(at 261.874 23.622 90)
+			(at 261.874 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,15 +11211,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 261.62 21.59 90)
+			(at 261.62 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 261.62 19.812 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 261.62 17.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11242,7 +11228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 21.59 0)
+			(at 261.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +11237,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 21.59 0)
+			(at 261.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,20 +11246,11 @@
 			)
 		)
 		(property "TEST" ""
-			(at 261.62 21.59 0)
+			(at 261.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 261.62 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11393,7 +11370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9160_16.0x10.5mm"
+		(property "Footprint" "Methanesense:LGA_9160_16.0x10.5mm"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -11428,7 +11405,7 @@
 				)
 			)
 		)
-		(property "MPN" "nRF9160-SICA"
+		(property "MPN" "nRF9160-SICA-B1A-R7"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -11888,15 +11865,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 200.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "4744a1af-28da-49ff-9f3a-3f015d3a5745")
 		)
@@ -12047,7 +12015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 250mA 0.7OHM SMD"
+		(property "Description" " 250mA 0.7OHM SMD RF"
 			(at 200.66 71.12 0)
 			(effects
 				(font
@@ -12064,7 +12032,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LQW15AN39NJ8ZD"
 			(at 200.66 71.12 0)
 			(effects
 				(font
@@ -12143,7 +12111,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LG L29K-G2J1-24-Z"
 			(at 195.58 24.13 0)
 			(effects
 				(font
@@ -12346,7 +12314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDS6892A"
+		(property "Value" "FDS6898A"
 			(at 197.104 35.56 0)
 			(effects
 				(font
@@ -12376,7 +12344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.8A Id, 20V Vds, Dual N-Channel MOSFET , 37mOhm Ron, SO-8"
+		(property "Description" "9.4A Id, 20V Vds, Dual N-Channel MOSFET , 14mOhm Ron, SO-8"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -12393,7 +12361,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FDS6898A"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -12587,7 +12555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "HIROSE ELECTRIC U.FL-R-SMT-1"
 			(at 267.97 84.1131 0)
 			(effects
 				(font
@@ -12596,7 +12564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "Methanesense:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -12623,7 +12591,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HIROSE ELECTRIC U.FL-R-SMT-1"
+		(property "MPN" "U.FL-R-SMT-1"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -12730,7 +12698,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "100R"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -12738,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.39 22.098 90)
 			(effects
 				(font
@@ -12771,15 +12739,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 199.39 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12931,15 +12890,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 148.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13103,15 +13053,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1af3e464-a0f8-4827-952d-9a9ba4d897ba")
 		)
@@ -13189,15 +13130,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 237.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b66ea3c6-e2dc-4d63-821d-9978e4a13811")
 		)
@@ -13268,7 +13200,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LG L29K-G2J1-24-Z"
 			(at 218.44 24.13 0)
 			(effects
 				(font
@@ -13485,7 +13417,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NN02-220"
 			(at 265.43 54.61 0)
 			(effects
 				(font
@@ -13708,15 +13640,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5ac5f0f9-aef0-42cd-96ee-cae6c5505356")
 		)
@@ -13866,6 +13789,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 252.73 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65832ff6-44ca-4ef1-a0fd-6d57c848f23c")
+		(property "Reference" "SW4"
+			(at 252.476 14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JS202011JCQN"
+			(at 252.73 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JS202011JCQN"
+			(at 252.73 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "dd6babc1-f837-4e9f-ace8-470d2cbdcbc9")
+		)
+		(pin "4"
+			(uuid "75eb1ba9-ac3b-4f9e-af81-27c423aa9e41")
+		)
+		(pin "1"
+			(uuid "e4ffd9a6-3c48-4001-ab72-322f180d6551")
+		)
+		(pin "3"
+			(uuid "f8a21341-0c38-4bcd-a545-9be15a37dadb")
+		)
+		(pin "2"
+			(uuid "879569e9-a116-4351-a5b8-e9a96f122828")
+		)
+		(pin "6"
+			(uuid "400ea372-7119-42eb-a727-9f281b451662")
+		)
+		(instances
+			(project ""
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/7b86e1c2-71e5-4b11-9432-ef8e7c9aa5cc"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 156.21 13.97 90)
 		(unit 1)
@@ -13993,7 +14004,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CBR04C560F1GAC"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -14079,7 +14090,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LQW15AN68NG0ZD"
 			(at 243.84 86.36 0)
 			(effects
 				(font
@@ -14247,15 +14258,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 210.82 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14744,7 +14746,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "8fa8b8e1-44d6-43f4-a8d1-a04946c978c7")
 		(property "Reference" "AE2"
 			(at 274.32 76.8349 0)
@@ -14797,15 +14799,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 271.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14977,7 +14970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 141.478 90)
 			(effects
 				(font
@@ -15010,15 +15003,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 67.31 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15110,7 +15094,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9a5821a6-d2a8-4317-942d-d848802aea90")
 		(property "Reference" "J5"
@@ -15164,15 +15148,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 261.62 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -15325,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "RF"
 			(at 194.31 59.69 0)
 			(effects
 				(font
@@ -15342,7 +15317,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GJM0335C1E150GB01D"
 			(at 194.31 59.69 0)
 			(effects
 				(font
@@ -15434,7 +15409,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 21.59 0)
+		(at 267.97 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15443,7 +15418,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae4e6315-5ecf-415b-b8c8-08a79c070a3d")
 		(property "Reference" "#PWR088"
-			(at 267.97 27.94 0)
+			(at 267.97 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15452,7 +15427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 26.67 0)
+			(at 267.97 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15460,7 +15435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 21.59 0)
+			(at 267.97 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15469,7 +15444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 21.59 0)
+			(at 267.97 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15478,7 +15453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 21.59 0)
+			(at 267.97 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15609,7 +15584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "RF"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -15626,7 +15601,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GJM0335C1E150GB01D"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -15668,7 +15643,7 @@
 				)
 			)
 		)
-		(property "Value" "KMR223GLFG"
+		(property "Value" "KMR223NGLFG"
 			(at 252.73 31.75 0)
 			(effects
 				(font
@@ -15676,7 +15651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Methanesense:SW_Push_1P1T_NO_CK_KMR2"
 			(at 252.73 31.75 0)
 			(effects
 				(font
@@ -15711,7 +15686,7 @@
 				)
 			)
 		)
-		(property "MPN" "KMR223GLFG"
+		(property "MPN" "KMR223NGLFG"
 			(at 252.73 36.83 0)
 			(effects
 				(font
@@ -15863,15 +15838,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 130.81 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6a844f58-543a-4d4b-a152-3389d25e7e18")
 		)
@@ -15962,7 +15928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" ""
 			(at 46.99 142.24 0)
 			(effects
 				(font
@@ -16199,7 +16165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 144.018 90)
 			(effects
 				(font
@@ -16232,15 +16198,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 67.31 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16593,15 +16550,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 123.19 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "529c817d-9593-43dc-a1eb-32f76035aaba")
 		)
@@ -16745,15 +16693,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 106.68 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c409e856-6b85-4685-a0b4-dc2481be8a51")
 		)
@@ -16882,7 +16821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Methanesense:C_0402_1005Metric_Sqr"
 			(at 139.3952 189.23 0)
 			(effects
 				(font
@@ -16900,7 +16839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "RF"
 			(at 138.43 185.42 0)
 			(effects
 				(font
@@ -16917,7 +16856,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GJM0335C1E150GB01D"
 			(at 138.43 185.42 0)
 			(effects
 				(font
@@ -16999,15 +16938,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 207.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17307,7 +17237,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "100R"
 			(at 214.63 20.32 90)
 			(effects
 				(font
@@ -17315,7 +17245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.63 22.098 90)
 			(effects
 				(font
@@ -17348,15 +17278,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 214.63 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17434,15 +17355,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17807,15 +17719,6 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f68cf40e-55f0-4244-b068-6c30f47f2339")
 		)
@@ -17958,7 +17861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "RF"
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -17975,7 +17878,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GJM0335C1E150GB01D"
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -18110,7 +18013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 250mA 0.7OHM SMD"
+		(property "Description" " 250mA 0.7OHM SMD RF"
 			(at 200.66 63.5 0)
 			(effects
 				(font
@@ -18127,7 +18030,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "LQW15AN39NJ8ZD"
 			(at 200.66 63.5 0)
 			(effects
 				(font
@@ -18162,7 +18065,7 @@
 		(dnp yes)
 		(uuid "fbd033ab-8b1b-49c3-b271-d12fce3cd786")
 		(property "Reference" "J2"
-			(at 214.63 75.9069 0)
+			(at 214.63 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18170,8 +18073,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
-			(at 214.63 73.3669 0)
+		(property "Value" "HIROSE ELECTRIC U.FL-R-SMT-1"
+			(at 214.63 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18179,7 +18082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "Methanesense:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -18206,7 +18109,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HIROSE ELECTRIC U.FL-R-SMT-1"
+		(property "MPN" "U.FL-R-SMT-1"
 			(at 210.82 74.93 0)
 			(effects
 				(font

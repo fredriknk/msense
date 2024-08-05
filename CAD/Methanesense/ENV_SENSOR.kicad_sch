@@ -815,16 +815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C307331"
+		(property "Description" "Unpolarized capacitor"
 			(at 119.38 96.52 0)
 			(effects
 				(font
@@ -839,15 +830,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MPN" ""
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1181,25 +1163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C307331"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 109.22 96.52 0)
 			(effects
 				(font
