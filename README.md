@@ -2,7 +2,7 @@
  
 ![HEADER](./PICTURES/TOP_annotated.jpeg)
 
-Open Source hardware for a NRF9160 based methane sensor utilizing MOX sensor.
+Open Source hardware kicad source files for a NRF9160 based methane sensor utilizing MOX sensor.
 
 Low power design with an estimated 80ua average current consumption measuring Methane, temp, pressure and humidity every ten minutes and transmitting once per hour. estimated battery life is 4.5 years from a 2500mah  18650 liion cell
 
