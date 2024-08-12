@@ -2598,7 +2598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -3318,7 +3318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 167.64 73.66 0)
 			(effects
 				(font
@@ -3667,7 +3667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -4059,7 +4059,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d83e61aa-08ae-469f-b96e-9f5be08ffcb0")
 		(property "Reference" "S1"
@@ -4256,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 167.64 81.28 0)
 			(effects
 				(font
@@ -4333,7 +4333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 190.5 85.09 0)
 			(effects
 				(font
