@@ -218,13 +218,6 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 64.255 0)
-		(size 3.2 3.2)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(uuid "8d050769-43b8-41f8-beb9-88e92064cd89")
-	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 3.5 3.5)

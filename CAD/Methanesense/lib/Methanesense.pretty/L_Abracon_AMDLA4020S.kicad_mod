@@ -1,0 +1,241 @@
+(footprint "L_Abracon_AMDLA4020S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Abracon, ASPIAIG-F4020, 4.4x4x2mm")
+	(tags "Inductor power shielded")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "c2229645-292b-4213-90c6-ed46dad8973d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Abracon_AMDLA4020S"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "c06b19f9-1793-425c-b579-00bd1ed9fce8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ca436f1-4d26-4db1-8324-6c748dffb9e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/datasheets/AMDLA4020S.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b92f5ea-4113-416d-9073-b5177d2cfd3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18132693-3966-499d-bbd0-25bac0990191")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.46 -2.46)
+		(end -2.46 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f8e7354-e76a-4b76-9cd2-a1dd53e418fd")
+	)
+	(fp_line
+		(start -2.46 -2.46)
+		(end 2.46 -2.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37f5babe-21cb-46d2-bd9e-6326d0762a6b")
+	)
+	(fp_line
+		(start -2.46 2.46)
+		(end -2.46 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f9d19b0-56ae-4302-8bc5-e8c8ea1a119d")
+	)
+	(fp_line
+		(start -2.46 2.46)
+		(end 2.46 2.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d18032fb-2a43-4d77-81ed-671898ad2fe0")
+	)
+	(fp_line
+		(start 2.46 -2.46)
+		(end 2.46 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96df2658-6ebb-4a1c-be85-d3375d3ac1c7")
+	)
+	(fp_line
+		(start 2.46 2.46)
+		(end 2.46 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d3bc1c4-6c69-4247-80f6-a718bf642dfa")
+	)
+	(fp_line
+		(start -2.45 -2.45)
+		(end -2.45 2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "259d364f-9878-4fc9-b0e9-553eb223b32f")
+	)
+	(fp_line
+		(start -2.45 2.45)
+		(end 2.45 2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88484b1b-d14b-4117-924c-be034fecad09")
+	)
+	(fp_line
+		(start 2.45 -2.45)
+		(end -2.45 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36070a19-ef71-4479-8061-f6994a70c6df")
+	)
+	(fp_line
+		(start 2.45 2.45)
+		(end 2.45 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4962b069-64c5-45c7-a10e-5c4e40a6916b")
+	)
+	(fp_line
+		(start -2.2 -2)
+		(end -2.2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d777ffe-25c7-4012-911c-1f802ac0ed9a")
+	)
+	(fp_line
+		(start -2.2 2)
+		(end 2.2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53932bbe-3052-4f3e-bf86-0decca93f339")
+	)
+	(fp_line
+		(start 2.2 -2)
+		(end -2.2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e509a320-28a2-4c9e-b13a-a5d27bf268b2")
+	)
+	(fp_line
+		(start 2.2 2)
+		(end 2.2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd888fda-b0b1-4abd-8571-b288b95c9cea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4648fbb9-a9f6-4caf-9ae5-085ea0105dd4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7775 0)
+		(size 1.395 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e58bdcd2-5b3a-46f0-8ec4-fccf2e9780b4")
+	)
+	(pad "2" smd rect
+		(at 1.7775 0)
+		(size 1.395 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "beedb620-a21d-4188-a775-3b8ab6702b5e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPIAIG-F4020.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

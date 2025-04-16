@@ -1,0 +1,296 @@
+(footprint "STEWART_SS-12800-004_M8_04_Socket_Right_Angle"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Shielded M8 socket 4 ways connector panel, right angle")
+	(tags "four-pin M8")
+	(property "Reference" "REF**"
+		(at -2.5 4 0)
+		(layer "F.SilkS")
+		(uuid "322fdaaa-70c0-4056-930f-c967e87a01da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SS-12800-004"
+		(at 1.75 8.72 180)
+		(layer "F.Fab")
+		(uuid "c4c8d5de-fb42-4ca0-9a44-b8a9996e8cc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "116b9b6a-7532-4b1d-aa5f-29c4b5c473ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.cinch.com/media/drawings/products/ethernet-usb/dr-STW-SS-12800-004.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36827433-c572-4441-a336-e3527400c1b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edda8d0c-67e4-4544-8205-1bc14d3b425f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -8)
+		(end 8 -8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f3646ad-ab86-481f-b0c5-ca4ed7857379")
+	)
+	(fp_line
+		(start -4.5 -2)
+		(end -4.5 -8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c897184-3b7d-4903-822d-e3a2ad8ba6cb")
+	)
+	(fp_line
+		(start 8 -8)
+		(end 8 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "015d9df7-70b4-4365-a488-31d8b8a996e1")
+	)
+	(fp_rect
+		(start -5 -8.5)
+		(end 8.5 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "03982fcd-44ba-41e1-8f68-7f57e33bf4c5")
+	)
+	(fp_rect
+		(start -2.5 -20.5)
+		(end 6.5 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cc2e636f-6e84-413e-b0eb-b6e6a9ae2bcd")
+	)
+	(fp_line
+		(start -0.9 -1.6)
+		(end -0.430944 -1.120431)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "084e1f82-9365-4dc0-bee6-29ca6259c2cf")
+	)
+	(fp_line
+		(start -0.430944 -1.120431)
+		(end -0.328723 -1.783417)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89852221-8532-4796-97dc-85b26d6191d5")
+	)
+	(fp_line
+		(start -0.328723 -1.783417)
+		(end -0.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "835a7943-f5de-46cd-9984-dec5dcf3d9d3")
+	)
+	(fp_rect
+		(start -4.5 -8.2)
+		(end 8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "077dacf0-3894-4f47-8f41-aa65b6ac399b")
+	)
+	(fp_rect
+		(start -2 -20.2)
+		(end 6 -8.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b2304830-fcf1-4f69-846c-c51a9fbf9603")
+	)
+	(fp_text user "4"
+		(at 3.5 4.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2863a798-5ad1-4db2-a145-bec47ab71b37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "2"
+		(at 1 4.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c165559f-ac49-4599-baa2-f84e7c773947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "1"
+		(at -1 -1 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c4a1f561-8c1d-4b67-b379-3b5b1efc5584")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "3"
+		(at 5 -1 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d99a9262-ad73-48fe-b4bd-6839d9786fde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 0.5 0)
+		(layer "F.Fab")
+		(uuid "e8e12fb6-97e1-4957-a261-0f5d088dba32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 17.8)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f57cc42b-a22d-4fdc-9803-347c7ef1cca5")
+	)
+	(pad "2" thru_hole circle
+		(at 0.625 1.95 180)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "896f48d2-0af6-4dbd-99e9-d7190ae30748")
+	)
+	(pad "3" thru_hole circle
+		(at 3.4 0 180)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28ad556f-e45c-476d-8626-b6beb0a62108")
+	)
+	(pad "4" thru_hole circle
+		(at 2.775 1.95 180)
+		(size 1.74 1.74)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e8794da-de37-4e1e-ac23-5849d67dc20b")
+	)
+	(pad "SH" thru_hole circle
+		(at -4.55 0.5 180)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8304a4c9-b2a2-46c1-83ec-4a4ebc9ab042")
+	)
+	(pad "SH" thru_hole circle
+		(at 7.95 0.5 180)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ffd27baf-eb80-4c28-afbb-7a4c89b7373d")
+	)
+	(model "${KIPRJMOD}/packages3D/SS-12800-004.stp"
+		(offset
+			(xyz 1.7 19.7 6.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
