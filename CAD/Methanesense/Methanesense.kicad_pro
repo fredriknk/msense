@@ -163,7 +163,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -175,11 +175,19 @@
       ],
       "drc_exclusions": [
         [
-          "silk_over_copper|146437871|66169687|6cf9ac76-1159-4284-bec1-07dd6c83570c|00000000-0000-0000-0000-000000000000",
+          "nonmirrored_text_on_back_layer|149400000|55600000|ca058299-21f3-45fa-8140-8db3004c6e7b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|79465686|68450000|469ea004-b571-4fe5-aa22-d1b666420ddf|dab56825-4668-4936-bd84-d34e960334b5|F.Cu",
+          "starved_thermal|103070468|68750000|469ea004-b571-4fe5-aa22-d1b666420ddf|dab56825-4668-4936-bd84-d34e960334b5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|129888938|73013401|469ea004-b571-4fe5-aa22-d1b666420ddf|b91e5b42-e92c-43a3-b5f1-24bfae108361|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|83099782|63850000|469ea004-b571-4fe5-aa22-d1b666420ddf|65f60891-886a-42f8-ac86-3acbb1c5f492|F.Cu",
           ""
         ]
       ],
@@ -316,7 +324,7 @@
       "track_widths": [
         0.0,
         0.15,
-        0.184,
+        0.217545,
         0.25,
         0.3,
         0.31,
@@ -843,7 +851,7 @@
           "show": false
         }
       ],
-      "filter_string": "L8",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",

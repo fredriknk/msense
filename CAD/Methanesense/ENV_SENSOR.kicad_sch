@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "9b6613e4-87c8-4a98-b279-6cfac9405e16")
 	(paper "A4")
+	(title_block
+		(title "ENV SENSOR")
+		(date "2025-04-25")
+		(rev "1.0.0")
+	)
 	(lib_symbols
 		(symbol "Library:C"
 			(pin_numbers

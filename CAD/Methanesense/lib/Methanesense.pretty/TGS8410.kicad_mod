@@ -1,7 +1,7 @@
 (footprint "TGS8410"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "S**"
 		(at 3 -5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c4fcaaaa-bda1-4a25-bcdc-626e739bb1a0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ab8422dc-5f89-4c2e-bd13-38a05c9eb536")
 		(effects
 			(font
 				(size 1 1)
@@ -67,6 +54,36 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -3.41194 -3.442492)
+		(end -2.956955 -3.834591)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "46c04c2e-1f1b-4181-ac81-acfdddac3a31")
+	)
+	(fp_line
+		(start -2.956955 -3.834591)
+		(end -2.740868 -3.004241)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74df0e2a-c9c8-43a5-9c83-e0cf5a7df2da")
+	)
+	(fp_line
+		(start -2.740868 -3.004241)
+		(end -3.41194 -3.442492)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "483a9d58-a8eb-440f-8772-16fecbd3eea8")
+	)
 	(fp_line
 		(start -0.5 -5)
 		(end 0.5 -5)
@@ -104,7 +121,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b304fe9d-8689-427e-82e8-26a9a19a2b82")
 	)
@@ -152,6 +169,7 @@
 		(remove_unused_layers no)
 		(uuid "b1dc37d8-8dc4-44a5-9b2b-846b584eba3b")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3D/TGS8410 v2.step"
 		(offset
 			(xyz 0 0 0)

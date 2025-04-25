@@ -1,12 +1,12 @@
 (footprint "BatteryHolder_MPD_BH-18650-PC2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)")
 	(tags "18650 Battery Holder")
 	(property "Reference" "REF**"
-		(at 36 1 0)
+		(at 36.45 1 0)
 		(layer "F.SilkS")
 		(uuid "1d66314b-7400-42c0-aba2-f5f5e1d0a73b")
 		(effects
@@ -17,25 +17,12 @@
 		)
 	)
 	(property "Value" "BatteryHolder_MPD_BH-18650-PC2"
-		(at 36 -0.8 0)
+		(at 36.45 -0.8 0)
 		(layer "F.Fab")
 		(uuid "678f6c3f-888e-4580-afb0-4b2f73de4691")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "85453e39-7c94-4d1d-bb2f-ee9568133230")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,28 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -6 -6)
-		(end -4 -6)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "2e38fb69-b5f9-42e2-a8d5-354b298f6236")
-	)
-	(fp_line
-		(start -5 -7)
-		(end -5 -5)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b4350784-22cb-42db-84ee-71e7ec80838e")
-	)
-	(fp_line
-		(start -3 -10.05)
-		(end 75 -10.05)
+		(start -2.55 -10.05)
+		(end 75.45 -10.05)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +65,8 @@
 		(uuid "1cfaa867-3a3a-4b7f-8594-fff7d9d02161")
 	)
 	(fp_line
-		(start -3 10.05)
-		(end -3 -10.05)
+		(start -2.55 10.05)
+		(end -2.55 -10.05)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,8 +75,28 @@
 		(uuid "41d2edcf-7807-4b6b-bc3a-5bfb385d842b")
 	)
 	(fp_line
-		(start 75 -10.05)
-		(end 75 10.05)
+		(start -0.55 -11.5)
+		(end 1.45 -11.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e38fb69-b5f9-42e2-a8d5-354b298f6236")
+	)
+	(fp_line
+		(start 0.45 -12.5)
+		(end 0.45 -10.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4350784-22cb-42db-84ee-71e7ec80838e")
+	)
+	(fp_line
+		(start 75.45 -10.05)
+		(end 75.45 10.05)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -118,8 +105,8 @@
 		(uuid "bf7f5e3c-6d10-4577-8cd4-2ca1685ae1e1")
 	)
 	(fp_line
-		(start 75 10.05)
-		(end -3 10.05)
+		(start 75.45 10.05)
+		(end -2.55 10.05)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -128,8 +115,8 @@
 		(uuid "5b553682-1752-4906-a3cf-ea66b9490ef2")
 	)
 	(fp_line
-		(start -3.2 -10.25)
-		(end 75.2 -10.25)
+		(start -2.75 -10.25)
+		(end 75.65 -10.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -138,8 +125,8 @@
 		(uuid "a2c12356-fcde-428b-bc3a-9541d3912780")
 	)
 	(fp_line
-		(start -3.2 10.25)
-		(end -3.2 -10.25)
+		(start -2.75 10.25)
+		(end -2.75 -10.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -148,8 +135,8 @@
 		(uuid "f3a00414-061d-42ee-9e83-c93bf80ed6e7")
 	)
 	(fp_line
-		(start 75.2 -10.25)
-		(end 75.2 10.25)
+		(start 75.65 -10.25)
+		(end 75.65 10.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -158,8 +145,8 @@
 		(uuid "5d65a722-1d57-447e-a34a-92217656d2fd")
 	)
 	(fp_line
-		(start 75.2 10.25)
-		(end -3.2 10.25)
+		(start 75.65 10.25)
+		(end -2.75 10.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -168,8 +155,8 @@
 		(uuid "310e2a6f-91f6-4456-b13d-fe5c79f22d60")
 	)
 	(fp_line
-		(start -2.8 -9.85)
-		(end 74.8 -9.85)
+		(start -2.35 -9.85)
+		(end 75.25 -9.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +165,8 @@
 		(uuid "0b781eff-8632-4a03-8473-04ab2c895d8f")
 	)
 	(fp_line
-		(start -2.8 9.85)
-		(end -2.8 -9.85)
+		(start -2.35 9.85)
+		(end -2.35 -9.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -188,8 +175,8 @@
 		(uuid "ae8b18cf-1084-4ef4-af63-278024a17271")
 	)
 	(fp_line
-		(start 74.8 -9.85)
-		(end 74.8 9.85)
+		(start 75.25 -9.85)
+		(end 75.25 9.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -198,8 +185,8 @@
 		(uuid "acf254ac-9330-473d-95bd-7a9abe3d5d64")
 	)
 	(fp_line
-		(start 74.8 9.85)
-		(end -2.8 9.85)
+		(start 75.25 9.85)
+		(end -2.35 9.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -208,7 +195,7 @@
 		(uuid "3ff1946b-b58f-4509-9729-7d95a456878e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 36 -2.4 0)
+		(at 36.45 -2.4 0)
 		(layer "F.Fab")
 		(uuid "2f551d3c-389a-4a40-9bfa-8c3e1b7534d1")
 		(effects
@@ -227,13 +214,14 @@
 		(uuid "93ba430c-8579-40c8-bfad-6bde630778ec")
 	)
 	(pad "2" thru_hole circle
-		(at 72 0)
+		(at 72.9 0)
 		(size 3.5 3.5)
 		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6dcdd6cd-2e60-4995-8a4b-f04c3a08d94a")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BH-18650-PC2.wrl"
 		(offset
 			(xyz 0 0 0)

@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "7b2c89bd-2008-4a70-a7d5-67ee8528c735")
 	(paper "A4")
+	(title_block
+		(title "GAS SENSOR")
+		(date "2025-04-25")
+		(rev "1.0.3")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
@@ -250,6 +255,113 @@
 					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1388,6 +1500,12 @@
 		(uuid "337e63f5-0790-4957-a366-817eca3d2b04")
 	)
 	(junction
+		(at 46.99 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62d2638f-7d7a-4f98-af18-8b92a4272e7e")
+	)
+	(junction
 		(at 50.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1406,10 +1524,22 @@
 		(uuid "73a6d83e-c294-4134-81d6-4edb79479fa4")
 	)
 	(junction
+		(at 90.17 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ea64921-3e85-4ec2-8b6c-a9f3c71761a4")
+	)
+	(junction
 		(at 176.53 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aed234ba-cd64-422e-83fa-9dd6b2d8b39e")
+	)
+	(junction
+		(at 90.17 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc9e3ff8-042a-4f74-a115-7690860f01a5")
 	)
 	(junction
 		(at 187.96 81.28)
@@ -1434,6 +1564,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b19239-5492-4d90-ae07-b1e4d9b0bd84")
+	)
+	(junction
+		(at 72.39 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faee7bb4-b714-49b0-8a86-10cf6792e26c")
 	)
 	(wire
 		(pts
@@ -1527,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 109.22) (xy 76.2 109.22)
+			(xy 71.12 109.22) (xy 72.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1564,6 +1700,16 @@
 			(type default)
 		)
 		(uuid "3baca525-b572-44de-966d-648f329eb58d")
+	)
+	(wire
+		(pts
+			(xy 72.39 109.22) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e685981-d626-4f81-ab76-0e70413c1aee")
 	)
 	(wire
 		(pts
@@ -1697,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 50.8 109.22)
+			(xy 44.45 109.22) (xy 46.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1707,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 92.71) (xy 85.09 92.71)
+			(xy 91.44 92.71) (xy 90.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1724,6 +1870,16 @@
 			(type default)
 		)
 		(uuid "94e496dc-d5e7-4ce9-b45a-662bf4902c64")
+	)
+	(wire
+		(pts
+			(xy 46.99 109.22) (xy 50.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dbbb7e-aadf-4be8-9a2f-7501e756c5d6")
 	)
 	(wire
 		(pts
@@ -1787,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 102.87) (xy 85.09 102.87)
+			(xy 91.44 102.87) (xy 90.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1867,6 +2023,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 92.71) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7908548-79a8-4200-bb18-6346efce9975")
+	)
+	(wire
+		(pts
 			(xy 59.69 116.84) (xy 59.69 114.3)
 		)
 		(stroke
@@ -1924,6 +2090,16 @@
 			(type default)
 		)
 		(uuid "e6fcbeea-3925-4c1b-8b32-42e44c3ee1cf")
+	)
+	(wire
+		(pts
+			(xy 90.17 102.87) (xy 85.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06e8b89-3d42-44e6-8c67-52d17a29d951")
 	)
 	(polyline
 		(pts
@@ -2117,7 +2293,7 @@
 	)
 	(hierarchical_label "Sensor"
 		(shape input)
-		(at 49.53 109.22 180)
+		(at 44.45 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2139,7 +2315,7 @@
 	)
 	(hierarchical_label "Heater"
 		(shape input)
-		(at 73.66 109.22 180)
+		(at 71.12 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2273,6 +2449,80 @@
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
 					(reference "Q1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "09368038-8e8e-452b-9119-353b5c3bb738")
+		(property "Reference" "TP14"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HEAT"
+			(at 72.39 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83bada49-c3ec-4dab-9f01-f899090bc4e7")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
+					(reference "TP14")
+					(unit 1)
 				)
 			)
 		)
@@ -2971,7 +3221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS1115IDGS"
+		(property "Value" "ADS1115IDGST"
 			(at 218.44 77.47 0)
 			(effects
 				(font
@@ -3007,13 +3257,21 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADS1115IDGS"
+		(property "MPN" " ADS1115IDGSR"
 			(at 217.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3050,6 +3308,154 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "821191e2-2237-4950-9a15-d7418fde529e")
+		(property "Reference" "TP13"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SEN"
+			(at 46.99 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "161ac41e-2e25-4c61-afe5-24c5277db4d3")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8351db61-1f3b-4bd1-b429-653b18aa0335")
+		(property "Reference" "TP18"
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7440dc7-e074-4429-9d8b-ab902e2837be")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -4062,6 +4468,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e7863ecc-9722-4baa-b77b-b09b373aa42e")
+		(property "Reference" "TP12"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AIN0"
+			(at 90.17 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f87f8c52-b2f8-4740-914a-9069fcfa9951")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 100.33 180)
 		(unit 1)
@@ -4122,6 +4602,145 @@
 			(project "Methanesense"
 				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ed983679-154c-44a3-87d4-51801675c957")
+		(property "Reference" "TP11"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AIN1"
+			(at 90.17 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEST" ""
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9a4dcb9-7d88-4358-9c64-368045ac189e")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6cb515-7d75-46b8-b0dc-3e07350f8e40")
+		(property "Reference" "#PWR0117"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba9b601e-8348-4c32-a5a0-62abc42b62ce")
+		)
+		(instances
+			(project "Methanesense"
+				(path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca/36d1c955-f2e9-42ab-9e12-64e82b9574aa"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
