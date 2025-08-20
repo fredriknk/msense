@@ -114,6 +114,17 @@
 		(layer "F.SilkS")
 		(uuid "017a1459-573c-4cc6-ae74-08319d649982")
 	)
+	(fp_rect
+		(start -0.5 -5)
+		(end 0.5 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1328bbff-dc3a-4dc7-b0e1-c8d649301aba")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 4.6 0)
@@ -172,13 +183,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3D/TGS8410 v2.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -0 -0 -90)
 		)
 	)
 )

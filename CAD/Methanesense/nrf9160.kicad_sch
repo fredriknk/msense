@@ -10166,7 +10166,7 @@
 	)
 	(hierarchical_label "Heater"
 		(shape input)
-		(at 33.02 59.69 180)
+		(at 33.02 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10243,7 +10243,7 @@
 	)
 	(hierarchical_label "Sensor"
 		(shape input)
-		(at 33.02 57.15 180)
+		(at 33.02 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13657,8 +13657,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 259.334 57.658 0)
+		(property "Value" "2361492-1"
+			(at 261.366 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,6 +13699,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "2361492-1"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

@@ -1,0 +1,33 @@
+Drill report for Methanesense.kicad_pcb
+Created on 2025-08-20T13:57:26+0200
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'Methanesense-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.350mm  0.0138"  (457 holes)
+    T2  0.350mm  0.0138"  (9 holes)
+    T3  0.400mm  0.0157"  (19 holes)
+    T4  0.800mm  0.0315"  (4 holes)
+    T5  1.000mm  0.0394"  (13 holes)
+    T6  1.300mm  0.0512"  (4 holes)
+    T7  2.000mm  0.0787"  (2 holes)
+    T8  3.000mm  0.1181"  (2 holes)
+
+    Total plated holes count 510
+
+
+Drill file 'Methanesense-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.991mm  0.0390"  (3 holes)
+    T2  2.200mm  0.0866"  (2 holes)
+
+    Total unplated holes count 5

@@ -2293,7 +2293,7 @@
 	)
 	(hierarchical_label "Sensor"
 		(shape input)
-		(at 44.45 109.22 180)
+		(at 71.12 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2315,7 +2315,7 @@
 	)
 	(hierarchical_label "Heater"
 		(shape input)
-		(at 71.12 109.22 180)
+		(at 44.45 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
