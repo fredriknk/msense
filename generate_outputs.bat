@@ -3,7 +3,6 @@ setlocal
 
 rem ---- CONFIG ----
 set "PROJECT=.\CAD\Methanesense\Methanesense"
-set "VENDOR=jlcpcb"
 set "KICAD_BIN=C:\Program Files\KiCad\9.0\bin"
 rem ----------------
 
@@ -13,8 +12,8 @@ set "PATH=%KICAD_BIN%;%KICAD_BIN%\Scripts;%PATH%"
 rem Always run from the batch file's directory (repo root)
 cd /d "%~dp0"
 
-echo Generating outputs for "%PROJECT%" with vendor "%VENDOR%"
-python ".\build_outputs.py" --project "%PROJECT%.kicad_pro" --no-timestamp --iso --zip --kikit "%VENDOR%"
+echo Generating outputs for "%PROJECT%" 
+python ".\build_outputs.py" --project "%PROJECT%.kicad_pro" --ibom --no-timestamp --iso --zip
 
 if errorlevel 1 (
   echo.

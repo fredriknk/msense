@@ -1,4 +1,4 @@
-ERC report (2025-08-20T13:57:17+0200, Encoding UTF8)
+ERC report (2025-08-21T12:38:18+0200, Encoding UTF8)
 
 ***** Sheet /
 [unconnected_wire_endpoint]: Unconnected wire endpoint
@@ -357,7 +357,7 @@ ERC report (2025-08-20T13:57:17+0200, Encoding UTF8)
     @(33.02 mm, 27.94 mm): Hierarchical Label 'SDA'
 [multiple_net_names]: Both P0.29 and SCL are attached to the same items; P0.29 will be used in the netlist
     ; warning
-    @(33.02 mm, 30.48 mm): Global Label 'P0.29'
+    @(99.06 mm, 107.95 mm): Global Label 'P0.29'
     @(33.02 mm, 30.48 mm): Hierarchical Label 'SCL'
 [multiple_net_names]: Both P0.26 and ADC_DRDY are attached to the same items; P0.26 will be used in the netlist
     ; warning
@@ -369,11 +369,11 @@ ERC report (2025-08-20T13:57:17+0200, Encoding UTF8)
     @(33.02 mm, 39.37 mm): Hierarchical Label 'AIO1'
 [multiple_net_names]: Both P0.15{slash}AIN2 and AIO2 are attached to the same items; P0.15{slash}AIN2 will be used in the netlist
     ; warning
-    @(99.06 mm, 85.09 mm): Global Label 'P0.15/AIN2'
+    @(33.02 mm, 41.91 mm): Global Label 'P0.15/AIN2'
     @(33.02 mm, 41.91 mm): Hierarchical Label 'AIO2'
 [multiple_net_names]: Both P0.11 and IRQ0 are attached to the same items; P0.11 will be used in the netlist
     ; warning
-    @(33.02 mm, 44.45 mm): Global Label 'P0.11'
+    @(99.06 mm, 74.93 mm): Global Label 'P0.11'
     @(33.02 mm, 44.45 mm): Hierarchical Label 'IRQ0'
 [multiple_net_names]: Both P0.12 and IRQ1 are attached to the same items; P0.12 will be used in the netlist
     ; warning
@@ -385,11 +385,11 @@ ERC report (2025-08-20T13:57:17+0200, Encoding UTF8)
     @(33.02 mm, 53.34 mm): Hierarchical Label 'USB_DET'
 [multiple_net_names]: Both P0.31 and Heater are attached to the same items; P0.31 will be used in the netlist
     ; warning
-    @(33.02 mm, 57.15 mm): Global Label 'P0.31'
+    @(99.06 mm, 113.03 mm): Global Label 'P0.31'
     @(33.02 mm, 57.15 mm): Hierarchical Label 'Heater'
 [multiple_net_names]: Both P0.27 and Sensor are attached to the same items; P0.27 will be used in the netlist
     ; warning
-    @(33.02 mm, 59.69 mm): Global Label 'P0.27'
+    @(99.06 mm, 102.87 mm): Global Label 'P0.27'
     @(33.02 mm, 59.69 mm): Hierarchical Label 'Sensor'
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error

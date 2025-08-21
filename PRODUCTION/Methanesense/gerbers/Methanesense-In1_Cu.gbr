@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
-%TF.CreationDate,2025-08-20T13:57:21+02:00*%
-%TF.ProjectId,Methanesense,4d657468-616e-4657-9365-6e73652e6b69,v2.0.0*%
+%TF.CreationDate,2025-08-21T12:38:23+02:00*%
+%TF.ProjectId,Methanesense,4d657468-616e-4657-9365-6e73652e6b69,v1.3.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.3) date 2025-08-20 13:57:21*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2025-08-21 12:38:23*
 %MOMM*%
 %LPD*%
 G01*

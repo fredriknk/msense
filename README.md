@@ -10,6 +10,7 @@ Low power design with about 60ua average current consumption measuring Methane, 
 It has an option for a GPS if necessary, but this will cause reduced battery life. 
 [PCB layout](./DOCUMENTATION/Methanesense_board_prints.pdf) <!-- PDFs of boards -->
 [SCHEMATIC](./DOCUMENTATION/Methanesense_schematic.pdf) <!-- Schematic PDFs -->
+[IBOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fredriknk/Methanesense/main/DOCUMENTATION/ibom.html) <!-- Interactive BOM PDF -->
 
 ## FRONT
 ![Front](./PICTURES/Methanesense_top.png)

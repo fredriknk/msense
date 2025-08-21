@@ -68,20 +68,30 @@ python .\\build_outputs.py --project .\\CAD\\esp-motioncontroller\\esp-motioncon
 # Use a different production folder (e.g., your CAD-specific production dir)
 python .\\build_outputs.py --project .\\CAD\\esp-motioncontroller\\esp-motioncontroller.kicad_pro --prod-dir CAD\\esp-motioncontroller\\production
 
+# Basic run with iBOM (light theme)
+python ./build_outputs.py --project ./CAD/esp-motioncontroller/esp-motioncontroller.kicad_pro --ibom
+
+# Dark theme iBOM with extra fields shown in the table
+python ./build_outputs.py --project ./CAD/esp-motioncontroller/esp-motioncontroller.kicad_pro --ibom --ibom-dark --ibom-fields "Manufacturer,MPN,LCSC"
+
 Usage (Bash / macOS / Linux)
 ----------------------------
 python3 ./build_outputs.py --project ./CAD/esp-motioncontroller/esp-motioncontroller.kicad_pro --iso --zip
 
 Command-line options
 --------------------
---project   Path to the .kicad_pro (or the stem) of the project (required)
---root      Repo root containing 3D_MODEL, PICTURES, DOCUMENTATION, PRODUCTION (default: ".")
---prod-dir  Production folder (relative to --root). Default: PRODUCTION
---iso       Also render an isometric PNG
---glb       Also export a GLB 3D model
---zip       Create a ZIP of the gerbers
---kikit     Run 'kikit fab <vendor>' into the production run folder (e.g., 'jlcpcb')
---skip-drc  Skip generating the DRC report
+--project       Path to the .kicad_pro (or the stem) of the project (required)
+--root          Repo root containing 3D_MODEL, PICTURES, DOCUMENTATION, PRODUCTION (default: ".")
+--prod-dir      Production folder (relative to --root). Default: PRODUCTION
+--iso           Also render an isometric PNG
+--glb           Also export a GLB 3D model
+--zip           Create a ZIP of the gerbers
+--kikit         Run 'kikit fab <vendor>' into the production run folder (e.g., 'jlcpcb')
+--skip-drc      Skip generating the DRC report
+--no-timestamp  Write to PRODUCTION/<project> (cleared each run) instead of timestamped folders.
+--ibom          Generate Interactive HTML BOM (InteractiveHtmlBom).
+--ibom-fields   Comma-separated extra fields to show in IBOM (e.g., 'Manufacturer,MPN').
+--ibom-dark     Use dark theme for IBOM.
 
 Troubleshooting
 ---------------
@@ -153,6 +163,7 @@ INFO INFO
 # Before major commmits
 Remember to run generate_outputs.bat/sh
 to update the outputs and pictures.
+readmetemplate
 """
 
 def read_text_flexible(path: Path) -> str:
@@ -362,6 +373,33 @@ def export_docs(kicad, sch_path: Path, pcb_path: Path, out_dir: Path, include_dr
 
     return sch_pdf, erc_rpt, board_pdf, drc_rpt
 
+def export_ibom_kicad_prompt(kicad_cli_path: str, pcb_path: Path, out_dir: Path,
+                             fields: str | None = None, dark: bool = False) -> Path:
+    
+    ensure_dir(out_dir.absolute())
+    out_html = out_dir.absolute() / f"{pcb_path.stem}_ibom.html"
+    kcmd = Path(kicad_cli_path).with_name("kicad-cmd.bat")
+
+    # Build a single shell command so `&&` works and quotes are honored
+    cmd = [
+        f'"{kcmd}"',
+        'generate_interactive_bom',
+        '--no-browser',
+        f'--dest-dir "{out_dir.absolute()}"',
+    ]
+    if dark:
+        cmd.append('--dark-mode')
+    if fields:
+        cmd += ['--extra-fields', f'"{fields}"']
+    cmd.append(f'"{pcb_path.absolute()}"')
+
+    full = f'{cmd[0]} && ' + ' '.join(cmd[1:])
+    subprocess.run(full, check=True, shell=True)
+    ibom = out_dir / "ibom.html"
+    if not ibom.exists():
+        raise RuntimeError("IBOM ran but output HTML not found at {ibom}.")
+    return ibom
+
 def export_fab(kicad, sch_path: Path, pcb_path: Path, out_dir: Path, zip_outputs: bool):
     """
     Fabrication outputs into `out_dir`, which is assumed to be clean if --no-timestamp was used.
@@ -462,8 +500,14 @@ def main():
     parser.add_argument("--kikit", default=None, help="Optional: vendor for KiKit 'fab' (e.g., 'jlcpcb').")
     parser.add_argument("--skip-drc", action="store_true", help="Skip DRC report.")
     parser.add_argument("--no-timestamp",action="store_true",
-                        help="Write to PRODUCTION/<project> (cleared each run) instead of timestamped folders."
-    )
+                        help="Write to PRODUCTION/<project> (cleared each run) instead of timestamped folders.")
+    parser.add_argument("--ibom", action="store_true",
+                        help="Generate Interactive HTML BOM via 'generate_interactive_bom'.")
+    parser.add_argument("--ibom-fields", default=None,
+                        help="Comma-separated extra fields for IBOM (e.g. 'Manufacturer,MPN').")
+    parser.add_argument("--ibom-dark", action="store_true",
+                        help="Use dark theme for IBOM.")
+    
     args = parser.parse_args()
 
     kicad = which_kicad_cli()
@@ -500,7 +544,14 @@ def main():
     # 4) Fabrication (Gerbers, drill, PNP, BOM [+ ZIP])
     export_fab(kicad, sch_path, pcb_path, prod_root, zip_outputs=args.zip)
 
-    # 5) Optional vendor-specific fab package via KiKit (e.g., jlcpcb)
+    
+    # 5) Optional Interactive BOM
+    if args.ibom:
+        ibom_path = export_ibom_kicad_prompt(kicad, pcb_path, docs_dir,
+                                            fields=args.ibom_fields, dark=args.ibom_dark)
+        print(f"IBOM (interactive HTML): {ibom_path}")
+
+    # 6) Optional vendor-specific fab package via KiKit (e.g., jlcpcb)
     if args.kikit:
         print(f"Running KiKit fab for vendor: {args.kikit}")
         vendor_zip = run_kikit_fab(args.kikit, pcb_path, sch_path, prod_root)
@@ -514,6 +565,8 @@ def main():
     print(f"- Pictures:        {pics_dir}")
     print(f"- Documentation:   {docs_dir}")
     print(f"- Production run:  {prod_root}")
+    if args.ibom:
+        print(f"- IBOM:            {ibom_path}")
 
 if __name__ == "__main__":
     try:
