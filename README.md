@@ -30,15 +30,15 @@ When 3d printing the enclosure, modify the two boxes in the sensor holes to be p
 
 ## Documentation
 
-[NRF9160SOC](./DOCUMENTATION/nRF9160_PS_v2.0.pdf)
+[NRF9160SOC](./DOCUMENTATION/Datasheets/nRF9160_PS_v2.0.pdf)
 
-[ADC](./DOCUMENTATION/ads1113.pdf)
+[ADC](./DOCUMENTATION/Datasheets/ads1113.pdf)
 
-[Temp/press/humidity sensor](./DOCUMENTATION/bst-bme680-ds001.pdf)
+[Temp/press/humidity sensor](./DOCUMENTATION/Datasheets/bst-bme680-ds001.pdf)
 
-[Powersupply PMIC](./DOCUMENTATION/nPM1300_PS_v1.0.pdf)
+[Powersupply PMIC](./DOCUMENTATION/Datasheets/nPM1300_PS_v1.0.pdf)
 
-[MOX Sensor](./DOCUMENTATION/tgs8410_product_infomation(en)_rev05.pdf)
+[MOX Sensor](./DOCUMENTATION/Datasheets/tgs8410_product_infomation(en)_rev05.pdf)
 
 # Before major commmits
 Remember to run generate_outputs.bat/sh
