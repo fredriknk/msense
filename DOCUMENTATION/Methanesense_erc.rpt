@@ -1,4 +1,4 @@
-ERC report (2025-08-21T12:38:18+0200, Encoding UTF8)
+ERC report (2025-08-21T13:37:40+0200, Encoding UTF8)
 
 ***** Sheet /
 [unconnected_wire_endpoint]: Unconnected wire endpoint
@@ -436,7 +436,7 @@ ERC report (2025-08-21T12:38:18+0200, Encoding UTF8)
     @(237.49 mm, 93.98 mm): Symbol U3 Pin 32 [VOUT2, Power output, Line]
 [multiple_net_names]: Both GND and PVSS1 are attached to the same items; GND will be used in the netlist
     ; warning
-    @(237.49 mm, 109.22 mm): Symbol #PWR048 Hidden pin 1 [GND, Power input, Line]
+    @(52.07 mm, 88.90 mm): Symbol #PWR031 Hidden pin 1 [GND, Power input, Line]
     @(259.08 mm, 97.79 mm): Symbol #PWR045 Hidden pin 1 [GND, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error

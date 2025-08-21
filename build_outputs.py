@@ -385,6 +385,9 @@ def export_ibom_kicad_prompt(kicad_cli_path: str, pcb_path: Path, out_dir: Path,
         f'"{kcmd}"',
         'generate_interactive_bom',
         '--no-browser',
+        '--highlight-pin1 all',
+        '--include-nets',
+        #'--include-tracks', kicad bug
         f'--dest-dir "{out_dir.absolute()}"',
     ]
     if dark:

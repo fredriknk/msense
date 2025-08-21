@@ -8,9 +8,12 @@ Open Source hardware kicad source files for a NRF9160 based methane sensor utili
 Low power design with about 60ua average current consumption measuring Methane, temp, pressure and humidity every 30 seconds, averaging values over 5 minute samples, and transmitting 11 readings every 55 minutes. estimated battery life is 4.5 years from a 2500mah  18650 liion cell
 
 It has an option for a GPS if necessary, but this will cause reduced battery life. 
+
+[Assembly IBOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fredriknk/Methanesense/main/DOCUMENTATION/ibom.html) <!-- Interactive BOM PDF -->
+
 [PCB layout](./DOCUMENTATION/Methanesense_board_prints.pdf) <!-- PDFs of boards -->
+
 [SCHEMATIC](./DOCUMENTATION/Methanesense_schematic.pdf) <!-- Schematic PDFs -->
-[IBOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fredriknk/Methanesense/main/DOCUMENTATION/ibom.html) <!-- Interactive BOM PDF -->
 
 ## FRONT
 ![Front](./PICTURES/Methanesense_top.png)
