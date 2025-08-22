@@ -5,7 +5,7 @@
 
 Open Source hardware kicad source files for a NRF9160 based methane sensor utilizing MOX sensor.
 
-Low power design with about 60ua average current consumption measuring Methane, temp, pressure and humidity every 30 seconds, averaging values over 5 minute samples, and transmitting 11 readings every 55 minutes. estimated battery life is 4.5 years from a 2500mah  18650 liion cell
+Low power design with about 60ua average current consumption measuring Methane, temp, pressure and humidity every 30 seconds, averaging values over 5 minute samples, and transmitting 11 readings every 55 minutes. estimated battery life is 4.5 years from a 3200mah  18650 liion cell
 
 It has an option for a GPS if necessary, but this will cause reduced battery life. 
 
